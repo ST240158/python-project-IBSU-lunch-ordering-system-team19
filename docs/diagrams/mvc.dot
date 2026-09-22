@@ -1,0 +1,18 @@
+digraph MVC {
+  rankdir=LR;
+  node [shape=box, style="rounded,filled", fontname="Arial"];
+  view [label="View\nConsole I/O"];
+  controller [label="Controller\nValidation + orchestration"];
+  service [label="Service\nAuth / Files / Reports"];
+  model [label="Model\nDomain objects"];
+  repo [label="Repository\nOO SQLite access"];
+  db [label="SQLite\n6 relational tables"];
+  view -> controller [label="input"];
+  controller -> service;
+  controller -> model;
+  service -> repo;
+  model -> repo;
+  repo -> db [label="parameterised SQL"];
+  repo -> controller [label="results"];
+  controller -> view [label="output"];
+}

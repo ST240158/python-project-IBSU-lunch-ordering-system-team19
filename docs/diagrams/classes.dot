@@ -1,0 +1,14 @@
+digraph Classes {
+  rankdir=TB; node [shape=record, fontname="Arial", fontsize=9];
+  user [label="{User (ABC)|user_id\lusername\nrole\l|abstract: get_menu_options()\lcan_manage_menu()\lcan_update_order_status()\l__str__/__repr__/__eq__/__hash__\l}"];
+  student [label="{Student|name\lcontact_info\l|role-specific menus/permissions\l}"];
+  admin [label="{Administrator|name\l|role-specific menus/permissions\l}"];
+  order [label="{Order|order_id\luser_id\lstatus\litems: list[OrderItem]\l|add_item/remove_item\lcomputed_total\l__len__/__contains__\l}"];
+  item [label="{OrderItem|food_item_id\litem_name\lquantity\lunit_price\l|subtotal\l}"];
+  food [label="{FoodItem|food_item_id\ncategory_id\lname\lprice\lstock\l}"];
+  category [label="{Category|category_id\lcategory_name\ldescription\l}"];
+  user -> student [arrowhead=empty, label="inherits"];
+  user -> admin [arrowhead=empty, label="inherits"];
+  order -> item [arrowhead=diamond, label="composition"];
+  category -> food [label="belongs to"];
+}

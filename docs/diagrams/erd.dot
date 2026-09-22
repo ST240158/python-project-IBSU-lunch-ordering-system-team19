@@ -1,0 +1,15 @@
+digraph ERD {
+  rankdir=LR; graph [splines=ortho, nodesep=0.7, ranksep=1.0];
+  node [shape=record, fontname="Arial", fontsize=10];
+  users [label="{users|PK user_id\lusername UQ\lpassword_hash\lrole\lname\lcontact_info\lcreated_at\l}"];
+  category [label="{category|PK category_id\lcategory_name UQ\ldescription\l}"];
+  food [label="{food_items|PK food_item_id\lFK category_id\lname\ldescription\lprice\lstock\l}"];
+  orders [label="{orders|PK order_id\lFK user_id\lFK status_id\lorder_date\ltotal_amount\l}"];
+  items [label="{order_items|PK order_item_id\lFK order_id\lFK food_item_id\litem_name\lquantity\lunit_price\lsubtotal\l}"];
+  status [label="{order_status|PK status_id\lstatus_name UQ\l}"];
+  users -> orders [label="1:N"];
+  category -> food [label="1:N"];
+  food -> items [label="1:N"];
+  orders -> items [label="1:N"];
+  status -> orders [label="1:N"];
+}

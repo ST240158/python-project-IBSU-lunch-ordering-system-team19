@@ -1,0 +1,14 @@
+{
+  "menu_items": [
+    {"category_name": "Main Dish", "name": "Chicken Rice", "description": "Grilled chicken with steamed rice", "price": 5.50, "stock": 25},
+    {"category_name": "Main Dish", "name": "Beef Stew", "description": "Slow-cooked beef with vegetables", "price": 6.00, "stock": 15},
+    {"category_name": "Main Dish", "name": "Veggie Pasta", "description": "Penne in marinara sauce", "price": 4.50, "stock": 30},
+    {"category_name": "Beverage", "name": "Orange Juice", "description": "Freshly squeezed orange juice", "price": 2.50, "stock": 50},
+    {"category_name": "Beverage", "name": "Green Tea", "description": "Hot Japanese green tea", "price": 2.00, "stock": 40},
+    {"category_name": "Beverage", "name": "Coffee", "description": "Americano coffee", "price": 3.00, "stock": 35},
+    {"category_name": "Dessert", "name": "Chocolate Cake", "description": "Rich chocolate layer cake", "price": 3.50, "stock": 20},
+    {"category_name": "Dessert", "name": "Fruit Salad", "description": "Seasonal fresh fruit mix", "price": 2.75, "stock": 25},
+    {"category_name": "Snack", "name": "French Fries", "description": "Crispy golden fries", "price": 2.50, "stock": 40},
+    {"category_name": "Snack", "name": "Sandwich", "description": "Ham and cheese sandwich", "price": 3.00, "stock": 30}
+  ]
+}

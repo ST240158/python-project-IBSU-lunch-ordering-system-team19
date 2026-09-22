@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.eggs/
+dist/
+build/
+.pytest_cache/
+.coverage
+coverage.json
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Runtime database (recreated automatically)
+database/ibsu_lunch.db
+
+# Runtime logs
+logs/*.log
+
+# Generated exports
+data/exports/
+
+# OS
+.DS_Store
+Thumbs.db
