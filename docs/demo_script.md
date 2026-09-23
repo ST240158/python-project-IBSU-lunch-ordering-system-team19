@@ -1,4 +1,4 @@
-# IT0206 Assessment 2 — Presentation and Demonstration Script
+# IT0206 Assessment 2C — Presentation and Demonstration Script
 ## IBSU Lunch Ordering System
 
 **Target duration:** 10–15 minutes  

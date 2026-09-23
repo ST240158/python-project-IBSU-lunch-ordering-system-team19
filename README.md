@@ -7,13 +7,13 @@
 | Name | Student ID | Role |
 |---|---|---|
 | Gunther Darius | ST240158 | Lead Developer |
-| [Johannesh Pesh] | [ST240723] | Database / QA |
+| Johannesh Pesh | T240723 | Database / QA |
 | [Member 3] | [ID] | Documentation / Testing |
 
 ## Project
 
-**Course:** IT0206 – Advanced Computer Programming 2  
-**Assessment:** Assessment 2 – Capstone Project  
+**Course:** IT0206 ï¿½ Advanced Computer Programming 2  
+**Assessment:** Assessment 2C ï¿½ Capstone Project  
 **Project:** IBSU Lunch Ordering System
 
 

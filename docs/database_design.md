@@ -1,4 +1,4 @@
-# IT0206 Assessment 2 — Database Design
+# IT0206 Assessment 2C — Database Design
 ## IBSU Lunch Ordering System
 
 ### 1. Database Technology

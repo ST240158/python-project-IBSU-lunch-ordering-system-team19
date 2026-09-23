@@ -7,7 +7,7 @@ We confirm that the submitted project is the work of the registered team and tha
 | Team member | Student ID | Signature | Date |
 |---|---|---|---|
 | Gunther Darius | ST240158 | __________________ | __________ |
-| [Team Member 2] | [ID] | __________________ | __________ |
+| Johannesh Pesh | T240723 | __________________ | __________ |
 | [Team Member 3] | [ID] | __________________ | __________ |
 
 ## AI Assistance Disclosure

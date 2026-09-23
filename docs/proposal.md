@@ -1,4 +1,4 @@
-# IT0206 Assessment 2 — Project Proposal
+# IT0206 Assessment 2C — Project Proposal
 ## IBSU Lunch Ordering System
 
 **Course:** IT0206 — Advanced Computer Programming 2  
