@@ -7,7 +7,7 @@
 | Name | Student ID | Role |
 |---|---|---|
 | Gunther Darius | ST240158 | Lead Developer |
-| Johannesh Pesh | T240723 | Database / QA |
+| Johannesh Pesh | ST240723 | Database / QA |
 | [Member 3] | [ID] | Documentation / Testing |
 
 ## Project
