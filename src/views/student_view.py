@@ -56,6 +56,10 @@ class StudentView:
             except ValueError:
                 print("  ❌ Invalid input. Please enter numeric ID and quantity.")
         return items
+    
+    def prompt_search(self) -> str:
+        """Ask for a food name or keyword to search for."""
+        return input("  Enter food name or keyword to search: ").strip()
 
     def confirm_order(self, total: float) -> bool:
         """Ask the student to confirm the order."""
