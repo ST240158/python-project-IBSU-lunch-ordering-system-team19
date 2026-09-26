@@ -1,0 +1,16 @@
+{
+  "database": {
+    "backend": "sqlite",
+    "sqlite_path": "database/ibsu_lunch.db",
+    "mysql": {
+      "host": "localhost",
+      "port": 3306,
+      "database": "ibsu_lunch",
+      "user": "root",
+      "password": ""
+    }
+  },
+  "reports": {
+    "output_directory": "data/exports"
+  }
+}

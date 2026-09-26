@@ -1,0 +1,7 @@
+pandas>=2.0
+matplotlib>=3.7
+tabulate>=0.9
+pytest>=7.4
+pytest-cov>=4.1
+mysql-connector-python>=9.0
+requests>=2.31

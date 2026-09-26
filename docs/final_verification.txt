@@ -1,0 +1,31 @@
+IT0206 Assessment 2C — Prompt Alignment Verification
+Date: 15 September 2026
+
+Automated tests:
+158 passed
+0 failed
+
+Clean launch:
+PASS — python -m src.main
+
+Prompt alignment:
+PASS — exact main menu: Student Login / Administrator Login / Exit
+PASS — exact student menu: View Menu / Search Food / Place Order / View My Orders / Cancel Order / Logout
+PASS — exact administrator menu: Add Food Item / View Food Items / Edit Food Item / Delete Food Item / View Orders / Update Order Status / Generate Reports / Logout
+PASS — exactly four persistent statuses: received / preparing / ready / collected
+PASS — secure salted PBKDF2 password hashing
+PASS — parameterized SQL
+PASS — SQLite default and MySQL backend support
+PASS — CSV/JSON handling
+PASS — pandas/matplotlib/tabulate reporting
+PASS — pytest suite
+PASS — no GUI/web/mobile/payment/delivery/supplier functionality
+
+Cancellation implementation decision:
+The prompt defines exactly four persistent statuses but does not define a cancelled status. An eligible received order is therefore removed transactionally and reserved stock is restored.
+
+Submission actions still required:
+- Regenerate binary PDF/PPTX/DOCX artifacts so they match this corrected implementation.
+- Replace team-member placeholders.
+- Obtain genuine UAT sign-off.
+- Publish to the team's real GitHub repository and use genuine version-control evidence.
