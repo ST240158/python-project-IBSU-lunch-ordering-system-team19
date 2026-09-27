@@ -1,14 +1,11 @@
 # IBSU Lunch Ordering System
 
-# IBSU Lunch Ordering System
-
 ## Team Members
 
 | Name | Student ID | Role |
 |---|---|---|
-| Gunther Darius | ST240158 | Lead Developer |
-| Johannesh Pesh | ST240723 | Database / QA |
-| [Member 3] | [ID] | Documentation / Testing |
+| Gunther Darius | ST240158 | Lead Developer | Documentation
+| Johannesh Pesh | ST240723 | Database / QA | Testing
 
 ## Project
 
